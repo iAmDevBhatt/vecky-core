@@ -1,0 +1,18 @@
+# Python
+__pycache__/
+*.py[cod]
+
+# Virtual environment
+.venv/
+venv/
+
+# Runtime / user-specific config & secrets — created at first run, never checked in
+config/api_keys.json
+config/certs/*.key
+config/certs/*.crt
+
+# Persisted user memory — accumulates personal data at runtime
+memory/long_term.json
+
+# Logs / scratch output
+*.log
